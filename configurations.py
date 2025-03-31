@@ -2,6 +2,7 @@ import os
 
 
 class Config:
-    SECRET_KEY = "your_secret_key"
-    SQLALCHEMY_DATABASE_URI = "sqlite:///pawsecure.db"
+    SQLALCHEMY_DATABASE_URI = (
+        "mssql+pymssql://MUD/E1009817:@csEHPAf*@Gv3rj@PF2WGETC/SQLEXPRESS/database_name"
+    )
     SQLALCHEMY_TRACK_MODIFICATIONS = False
