@@ -101,14 +101,17 @@
       }
 
       .signup-btn {
-        background: white;
-        padding: 15px 25px;
-        border-radius: 10px;
+        display: inline-block;
+        text-decoration: none;
         border: none;
-        font-size: 18px;
-        font-weight: bold;
+        background-color: #fff; /* Adjust based on your theme */
+        color: navy;
+        padding: 10px 20px;
+        font-size: 16px;
         cursor: pointer;
-      }
+        border-radius: 5px;
+        font-weight: bold;
+}
 
       .signup-btn:hover {
         background: #ddd;
@@ -117,7 +120,7 @@
   </head>
   <body>
     <header>
-      <img src="images\company-logo.jpg" alt="PawSecure Logo" class="logo" />
+      <img src="images\logo.jpg" alt="PawSecure Logo" class="logo" />
       <nav>
         <ul>
           <li><a href="#">Home</a></li>
@@ -132,7 +135,7 @@
       <section class="info-section">
         <div class="content-box">
           <img
-            src="images\istockphoto-930281684-612x612.jpg"
+            src="https://media.istockphoto.com/id/930281684/photo/dogs-and-cats-peeking-over-web-banner.jpg?s=170667a&w=0&k=20&c=cbj0QmTeuQuaa8ZnoDSQdbLv9DHNmW3t8d5sIqSRC2c="
             alt="Pets Image"
             class="pets-image"
           />
@@ -151,8 +154,11 @@
       </section>
 
       <section class="cta-section">
-        <button class="signup-btn">Sign up now</button>
+          <a href="owner-info.html">
+              <button class="signup-btn">Sign up now</button>
+          </a>
       </section>
+
     </main>
   </body>
 </html>

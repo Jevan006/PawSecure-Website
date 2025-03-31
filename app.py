@@ -23,6 +23,11 @@ def contact():
     return render_template("contact.html")
 
 
+@app.route("/qoutes")
+def qoutes():
+    return render_template("qoutes_page.html")
+
+
 @app.route("/login")
 def login():
     return render_template("login.html")
