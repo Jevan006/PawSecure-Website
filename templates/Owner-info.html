@@ -130,9 +130,9 @@
   </head>
   <body>
     <header>
-      <img src="images\logo.jpg" alt="PawSecure Logo" class="logo" />
+      <img src="./logo.jpg" alt="PawSecure Logo" class="logo" />
       <nav>
-        <button>Home</button>
+        <button onclick="window.location.href='home_page.html'">Home</button>
         <button>Partners</button>
         <button>Contact</button>
         <button>Login</button>
@@ -159,22 +159,18 @@
 
       <section class="form-section">
         <h2>Tell us about yourself</h2>
-        <form>
+        <form action="qoutes-page.html">
           <input type="text" placeholder="Name" />
           <input type="text" placeholder="Surname" />
           <div class="age-contact">
-            <select>
-              <option>Age</option>
-              <option>18-25</option>
-              <option>26-35</option>
-              <option>36-50</option>
-              <option>50+</option>
-            </select>
+            <input type="date" placeholder="Date of Birth" />
             <input type="text" placeholder="Contact Number" />
           </div>
+
           <input type="text" placeholder="Physical Address" />
           <input type="email" placeholder="Email address" />
           <input type="password" placeholder="Password" />
+          <input type="password" placeholder="Confirm Password" />
           <section class="cta-section">
             <a href="qoutes-page.html">
               <button class="signup-btn">Sign up</button>

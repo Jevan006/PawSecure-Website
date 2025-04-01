@@ -56,13 +56,16 @@
       }
       .premium-title {
         color: rgb(87, 74, 0);
-        font-size: 20px;
+        font-size: 30px;
         font-weight: bold;
+        line-height: 30px;
+        padding-bottom: 15px;
       }
       .price {
         font-size: 18px;
         font-weight: bold;
         margin-bottom: 10px;
+        padding-top: 15px;
       }
       .purchase-btn {
         background-color: green;
@@ -74,15 +77,27 @@
         cursor: pointer;
         font-size: 16px;
       }
-      ul {
-        padding-left: 20px;
+      h2 {
+        font-size: 30px;
+      }
+      .feature {
+        display: flex;
+        align-items: center;
+        line-height: 40px;
+      }
+      .feature .icon {
+        font-size: 18px;
+        margin-right: 8px;
+      }
+      .blurred {
+        color: rgba(0, 0, 0, 0.3);
       }
     </style>
   </head>
   <body>
     <div class="header">
       <div class="logo">
-        <img src="images\company-logo.jpg" alt="Paw Insure Logo" />
+        <img src="./logo.jpg" alt="Paw Insure Logo" />
       </div>
       <div class="nav-buttons">
         <button>HOME</button>
@@ -94,39 +109,85 @@
     <h2>We’ve found <strong>3</strong> great deals for you!</h2>
     <div class="container">
       <div class="card">
-        <div class="premium-title">Premium</div>
-        <ul>
-          <li>Upload Video up to 720p Resolution</li>
-          <li>Attachment & Post Scheduling</li>
-          <li>Set your rates</li>
-          <li>Exclusive Deals</li>
-        </ul>
-        <div class="price">R266.50 pm</div>
-        <button class="purchase-btn">Purchase ✅</button>
+        <div class="premium-title">Basic</div>
+        <div class="feature">
+          <span class="icon">✔</span> Accidents & Emergency Care
+        </div>
+        <div class="feature">
+          <span class="icon">✔</span> Routine Vet Check-ups *
+        </div>
+        <div class="feature">
+          <span class="icon">✔</span> Vaccinations & Deworming
+        </div>
+        <div class="feature blurred">
+          <span class="icon">✘</span> Illness Coverage
+        </div>
+        <div class="feature blurred">
+          <span class="icon">✘</span> Prescription Medications
+        </div>
+        <div class="feature blurred">
+          <span class="icon">✘</span> Specialist Vet Consultations
+        </div>
+        <div class="feature blurred">
+          <span class="icon">✘</span> Dental Care
+        </div>
+        <div class="feature blurred">
+          <span class="icon">✘</span> Chronic Condition Management
+        </div>
+        <div class="price">R146.50 pm</div>
+        <button class="purchase-btn">Purchase</button>
+      </div>
+      <div class="card">
+        <div class="premium-title">Pro</div>
+        <div class="feature">
+          <span class="icon">✔</span> Accidents & Emergency Care
+        </div>
+        <div class="feature">
+          <span class="icon">✔</span> Routine Vet Check-ups *
+        </div>
+        <div class="feature">
+          <span class="icon">✔</span> Vaccinations & Deworming
+        </div>
+        <div class="feature"><span class="icon">✔</span> Illness Coverage</div>
+        <div class="feature">
+          <span class="icon">✔</span> Prescription Medications
+        </div>
+        <div class="feature">
+          <span class="icon">✔</span> Specialist Vet Consultations
+        </div>
+        <div class="feature blurred">
+          <span class="icon">✘</span> Dental Care
+        </div>
+        <div class="feature blurred">
+          <span class="icon">✘</span> Chronic Condition Management
+        </div>
+        <div class="price">R200.95 pm</div>
+        <button class="purchase-btn">Purchase</button>
       </div>
       <div class="card">
         <div class="premium-title">Premium</div>
-        <ul>
-          <li>Upload Video with HD Resolution</li>
-          <li>Attachment & Post Scheduling</li>
-          <li>Set your rates</li>
-          <li>Exclusive Deals</li>
-          <li>Advanced Statistics</li>
-        </ul>
-        <div class="price">R240.95 pm</div>
-        <button class="purchase-btn">Purchase ✅</button>
-      </div>
-      <div class="card">
-        <div class="premium-title">Premium</div>
-        <ul>
-          <li>Upload Video with HD Resolution</li>
-          <li>Attachment & Post Scheduling</li>
-          <li>Set your rates</li>
-          <li>Exclusive Deals</li>
-          <li>Advanced Statistics</li>
-        </ul>
+        <div class="feature">
+          <span class="icon">✔</span> Accidents & Emergency Care
+        </div>
+        <div class="feature">
+          <span class="icon">✔</span> Routine Vet Check-ups *
+        </div>
+        <div class="feature">
+          <span class="icon">✔</span> Vaccinations & Deworming
+        </div>
+        <div class="feature"><span class="icon">✔</span> Illness Coverage</div>
+        <div class="feature">
+          <span class="icon">✔</span> Prescription Medications
+        </div>
+        <div class="feature">
+          <span class="icon">✔</span> Specialist Vet Consultations
+        </div>
+        <div class="feature"><span class="icon">✔</span> Dental Care</div>
+        <div class="feature">
+          <span class="icon">✔</span> Chronic Condition Management
+        </div>
         <div class="price">R295.60 pm</div>
-        <button class="purchase-btn">Purchase ✅</button>
+        <button class="purchase-btn">Purchase</button>
       </div>
     </div>
   </body>
